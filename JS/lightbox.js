@@ -1,0 +1,1 @@
+const imagenDom= document.querySelector(".img-display")
