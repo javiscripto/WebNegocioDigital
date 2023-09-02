@@ -18,9 +18,8 @@
   </head>
   <body>
     <header class="header" id="inicio">
-     
+      <img src="./imagenes/bx-menu.svg" alt="menu" class="menu" />
       <nav id="navBarOff" class="">
-        <img src="./imagenes/bx-menu.svg" alt="menu" class="menu">
         <a href="#inicio">inicio</a>
         <a href="#about">quienes somos</a>
         <a href="#formacion">formacion</a>
@@ -36,21 +35,44 @@
     <!-- /////////////////         MAIN          ////////////////// -->
 
     <main>
-      <section class=" contenedor about" id="about">
+      <section class="contenedor about" id="about">
         <h2 class="subtitulo">Quienes somos</h2>
         <div class="contenedor-about">
           <img src="./imagenes/coworking-0.png" alt="lorem" />
+          <div class="contenedor-about-text">
+            <p>
+              Somos un equipo multidisciplinario dedicado a potenciar los
+              negocios locales ayudandolos en el proceso de la digitalización.
+              <br />Nos encargamos de posicionar tu emprendimiento en la web.
+              <br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Atque nemo commodi error, recusandae a inventore nobis
+              necessitatibus ea molestias vel illum nulla, esse officiis aut
+              ipsam odit quidem sed eum.
+            </p>
+          </div>
         </div>
       </section>
 
       <!--      formacion        -->
-      <section class="formacion contenedor" id="formacion">
-        <div class="contenedor">
-          <h2 class="subtitulo">STACK TECNOLÓGICO</h2>
-          <div class="contenedor-tecnologias contenedor-grid">
+      <section class=" contenedor" id="formacion">
+        
+        
+        <h2 class="subtitulo">STACK TECNOLÓGICO</h2>
+
+        <div class="formacion ">
+          <div class="stack-text">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum,
+              illum vel magni repellat voluptatem, eveniet quos, voluptate
+              voluptas deserunt accusamus provident nisi. Delectus quis numquam
+              obcaecati et? Perspiciatis, magnam accusantium?
+            </p>
+          </div>
+          <div class="contenedor-tecnologias stack-iconos">
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/html5-logo-24.png" alt="" />
+                <p>html</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -58,6 +80,7 @@
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/javascript-logo-24.png" alt="" />
+                <p>JavaScript</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -65,6 +88,7 @@
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/react-logo-24.png" alt="" />
+                <p>React js</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -72,6 +96,7 @@
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/css3-logo-24.png" alt="" />
+                <p>CSS 3</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -79,6 +104,7 @@
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/sass-logo-24.png" alt="" />
+                <p>SASS</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -86,6 +112,7 @@
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/bootstrap-logo-24.png" alt="" />
+                <p>bootstrap</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -93,6 +120,7 @@
             <div class="card-grid">
               <div class="img">
                 <img src="./iconos/firebase-logo-24.png" alt="" />
+                <p>Firebase</p>
               </div>
               <h3 class="subtitulo"></h3>
             </div>
@@ -113,58 +141,44 @@
           <div class="contenedor-proyecto">
             <img src="./imagenes/papiro-web.gif" alt="" />
             <div class="texto">
-
-                <h4>papiro azul</h4>
-                <p>
-                  Papiro azul web es un sitio estatico báscico con seciones
-                  linkeables y formularios de contacto. Fue mi primer proyecto de
-                  desarrollo web. En él fueron utilizados html, css, sass, bootstrap
-                  y GRID.
-                  Este es un tipo de proyecto ideal en el cual solo es necesario mostrar informacion estatica, es decir
-                  es una pagina informativa en la cual el usuario podra conocer tu negocio y ponerse en contacto contigo.
-                </p>
-
+              <h4>papiro azul</h4>
+              <p>
+                Papiro azul web es un sitio estatico báscico con seciones
+                linkeables y formularios de contacto. Fue mi primer proyecto de
+                desarrollo web. En él fueron utilizados html, css, sass,
+                bootstrap y GRID. Este es un tipo de proyecto ideal en el cual
+                solo es necesario mostrar informacion estatica, es decir es una
+                pagina informativa en la cual el usuario podra conocer tu
+                negocio y ponerse en contacto contigo.
+              </p>
             </div>
           </div>
           <div class="contenedor-proyecto">
             <img src="./imagenes/react-app.gif" alt="" />
 
             <div class="texto">
-
-                <h4>GuitarStore</h4>
-                <p>
-                  guitar store es una plantilla basica de un e comerce que trae la
-                  informacion desde el microservicio de google FIrestore y la
-                  procesa para realizar una simulacion de compra. El proyecto
-                  incluye un filtro de categorias, una seccion principal, una
-                  seccion de detalle de los productos, una seccion de Carrito de
-                  compras y finalmente, una seccion de pago donde se genera una
-                  orden con un identificador unico y los datos del comprador.
-                  Es un tipo de proyecto ideal en el cual es necesario manejar datos y procesar informacion.
-                </p>
-
+              <h4>GuitarStore</h4>
+              <p>
+                guitar store es una plantilla basica de un e comerce que trae la
+                informacion desde el microservicio de google FIrestore y la
+                procesa para realizar una simulacion de compra. El proyecto
+                incluye un filtro de categorias, una seccion principal, una
+                seccion de detalle de los productos, una seccion de Carrito de
+                compras y finalmente, una seccion de pago donde se genera una
+                orden con un identificador unico y los datos del comprador. Es
+                un tipo de proyecto ideal en el cual es necesario manejar datos
+                y procesar informacion.
+              </p>
             </div>
-
           </div>
         </div>
       </section>
 
+      <!-- ///lightbox -->
 
       <!-- ///lightbox -->
 
-
-
-      <section>
-        <section class="img-ligtht">
-            <img src="./imagenes/bx-x.svg" alt="cerrar" class="close">
-            <img src="" alt="" class="img-display">
-        </section>
-      </section>
-
-
- <!-- ///lightbox -->
-
-      <section class="contenedor " id="contacto">
+      <section class="contenedor" id="contacto">
         <h2 class="subtitulo">CONTACTO</h2>
         <a href="mailto:javier.mecker94@gmail.com"
           ><i class="bx bxl-gmail"></i
@@ -174,7 +188,6 @@
         ></a>
         <a href="#inicio"> subir ^ </a>
       </section>
-    
     </main>
 
     <footer class="footer">

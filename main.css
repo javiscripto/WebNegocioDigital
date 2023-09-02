@@ -26,11 +26,20 @@ body {
 .galeria {
   padding: 0.5rem;
   gap: 2rem;
+  
+}
+.contenedor-about{
+  display: flex;
+}
+.proyectos{
+  width: 100%;
+  background-color: rgba(226, 223, 223, 0.521);
 }
 .contenedor-proyecto {
   display: flex;
   gap: 20px;
   align-items: center;
+  /* flex-wrap: wrap; */
 }
 .contenedor-proyecto img {
   width: 500px;
@@ -56,6 +65,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
+
 .navBarOff {
   display: none;
   transition: 0.2s 0.3s;
@@ -100,4 +110,48 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.formacion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.stack-iconos{
+  display: flex;
+}
+.stack-iconos .img{
+  display: block;
+  width: 100px;
+}
+
+/* lightbox */
+
+.img-light{
+  position: sticky;
+  background: rgba(0, 0, 0, 0.335);
+  width: 100vh;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.img-display{
+  width: 60%;
+  border-radius: 10px;
+}
+.close{
+  position: absolute;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: rgba(226, 223, 223, 0.521);
+
+ 
 }
