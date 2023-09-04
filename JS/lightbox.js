@@ -18,7 +18,7 @@ imagenes.forEach(imagen=>{
     display.classList.remove("displayOn")
    })
 })
-})
+});
 
 
 

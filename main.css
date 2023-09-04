@@ -12,6 +12,8 @@ body {
   background-color: rgba(231, 224, 213, 0.263);
 }
 
+
+
 .contenedor {
   width: 90%;
   max-width: 1200px;
@@ -70,12 +72,26 @@ body {
   cursor: pointer;
 }
 
-.navBarOff {
-  display: none;
+#navBarOff {
+
+ gap: 2rem;  
   transition: 0.2s 0.3s;
 }
+#navBarOff a{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+ margin: 1rem;
+  
+}
+#navBarOff a:hover{
+  text-decoration:double;
+}
 
-.navBarOn {
+
+.displayMenu {
   margin-top: 80px;
   flex-direction: column;
   align-items: center;
@@ -85,10 +101,11 @@ body {
   right: 0;
   background-color: rgba(148, 36, 36, 0.883);
   width: 30vw;
-  height: 100%;
+  height: 90vh;
   border-radius: 10px 0px 0px 0px;
   animation: scale-up-right 0.5s;
 }
+
 
 @keyframes scale-up-right {
   0% {
@@ -156,6 +173,15 @@ body {
 }
 
 /*----------------------------*/
+#contacto{
+  display: flex;
+  justify-content: space-around;
+}
+#contacto a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
 .footer{
   display: flex;
   justify-content: center;

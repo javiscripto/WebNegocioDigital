@@ -1,11 +1,11 @@
 
 const hamburger = document.querySelector(".menu");
-const navBarOff = document.getElementById("navBarOff"); 
+const navBarOff = document.querySelector("#navBarOff"); 
 
 
 
 hamburger.addEventListener("click", () => {
-    navBarOff.classList.toggle("navBarOn");
+    navBarOff.classList.toggle("displayMenu")
 
 })
 
